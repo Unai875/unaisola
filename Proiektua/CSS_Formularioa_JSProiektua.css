@@ -24,14 +24,19 @@ body{
     gap: 30px;
 }
 
+div a{
+    color: white;
+    text-decoration: none;
+}
+  
+
 .formulario-kontainerra{
     width: 80%;
     margin: auto;
     max-width: 400px;
     padding: 20px;
     box-sizing: border-box;
-    border: 1px solid rgba(0,0,0,0.1);
-    box-shadow: rgba(0,0,0,0.1);
+    box-shadow: rgba(0,0,0,0.1) 0px 2px 4px;
   }
   
   .formulario-errenkada{
@@ -44,6 +49,7 @@ body{
   label{
     margin-bottom: 5px;
     font-weight:bolder;
+    padding-bottom: 10px;
   }
 
   input[type="email"]{
