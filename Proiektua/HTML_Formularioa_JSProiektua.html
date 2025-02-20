@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS_Formularioa_JSProiektua.css">
+</head>
+<body>
+  <header class="goiburuaOrokorra">
+    <div class="barrukoFlex">
+        <div class="Pertsonalizatzea">Pertsonalizatzea</div>
+        <div class="Formularioa">Formularioa</div> 
+        <div class="Irudiak">Irudiak</div>
+    </div>
+  </header>
+    <div class="formulario-kontainerra">
+
+        <form method="post">
+          <div class="formulario-errenkada">
+            <label for="name">Izen osoa:</label>
+            <input type="text" id="name" name="name" placeholder="Sartu zure izen osoa">
+          </div>
+    
+          <div class="formulario-errenkada">
+            <label for="emaila">Emaila:</label>
+            <input type="email" id="emaila" name="emaila" placeholder="Sartu zure emaila">
+          </div>
+
+          <button>Onartu</button>
+          <p id="onartu"></p>
+    
+          <div class="formulario-errenkada">
+            <label>Generoa:</label>
+            <div class="form-taldea">
+              <input type="radio" id="gizona" name="generoa" value="gizona">
+              <label for="gizona">Gizona</label>
+    
+              <input type="radio" id="emakumea" name="generoa" value="emakumea">
+              <label for="emakumea">Emakumea</label>
+    
+              <input type="radio" id="bestea" name="generoa" value="bestea">
+              <label for="bestea">Beste bat</label>
+            </div>
+          </div>
+
+          <div class="formulario-errenkada">
+            <label for="estatua">Estatua:</label>
+            <select id="estatua" name="estatua">
+              <option value="">Aukeratu zure estatua</option>
+              <option value="us">Ameriketako Estatu Batuak</option>
+              <option value="uk">Erresuma Batuak</option>
+              <option value="kanada">Kanada</option>
+              <option value="australia">Australia</option>
+            </select>
+          </div>
+    
+          <div class="formulario-errenkada">
+            <button type="submit" class="submit-btn">Bidali</button>
+          </div>
+        </form>
+    </div>
+
+</body>
+</html>
