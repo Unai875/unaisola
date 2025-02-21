@@ -29,13 +29,15 @@ div a{
     text-decoration: none;
 }
 
-.taula{
+#taula{
     width: 80%;
-    max-width: 200px;
+    width: 175px;
     box-sizing: border-box;
     box-shadow: rgba(0,0,0,0.1) 0px 2px 4px;
-    border-radius: 20px;
+    border-radius: 10px;
+    padding: 5px;
 }
+
 button{
     height: 27px;
     width: 27px;
@@ -58,7 +60,7 @@ button:hover{
 }
 
 #zerua{
-    background-color: aqua;
+    background-color: lightblue;
 }
 
 #gris_iluna{
@@ -66,5 +68,25 @@ button:hover{
 }
 
 #gris_argia{
-    background-color: grey;
+    background-color: lightgray;
+}
+
+#gorria{
+    background-color: red;
+}
+
+#berdea{
+    background-color: green;
+}
+
+#urdina{
+    background-color: blue;
+}
+
+#beltza{
+    background-color: black;
+}
+
+#txuria{
+    background-color: white;
 }
