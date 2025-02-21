@@ -28,4 +28,43 @@ div a{
     color: white;
     text-decoration: none;
 }
-  
+
+.taula{
+    width: 80%;
+    max-width: 200px;
+    box-sizing: border-box;
+    box-shadow: rgba(0,0,0,0.1) 0px 2px 4px;
+    border-radius: 20px;
+}
+button{
+    height: 27px;
+    width: 27px;
+    border-radius: 5px;
+    border: 2px solid rgb(75, 75, 75);
+}
+
+button:hover{
+    height: 32px;
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+}
+
+#arroxa{
+    background-color: pink;
+}
+
+#lima{
+    background-color: lightgreen;
+}
+
+#zerua{
+    background-color: aqua;
+}
+
+#gris_iluna{
+    background-color: #444;
+}
+
+#gris_argia{
+    background-color: grey;
+}
