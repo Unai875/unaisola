@@ -28,4 +28,25 @@ div a{
     color: white;
     text-decoration: none;
 }
-  
+
+.irudia1{
+    width: 80%;
+    margin: auto;
+    width: 1000px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: rgba(0,0,0,0.1) 0px 2px 4px;
+    color: rgb(0, 119, 255);
+    border-radius: 20px;
+}
+
+.irudia2{
+    width: 80%;
+    margin: auto;
+    width: 1000px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: rgba(0,0,0,0.1) 0px 2px 4px;
+    color: rgb(0, 119, 255);
+    border-radius: 20px;
+}
