@@ -1,7 +1,16 @@
-function konprobaketa(){
-    if (document.getElementById("emaila").value.includes("@")){
-        document.getElementById("onartu").textContent = (document.getElementById("emaila").value, " ez da onartzen.");
+function konprobaketa(event){
+    event.preventDefault();
+
+    const emaila = document.getElementById("emaila").value;
+    const emaitza = document.getElementById("onartu");
+
+    if (emaila.includes("@")){
+        emaitza.textContent = "Emaila egokia da.";
+        emaitza.style.color = "green";
     } else {
-        document.getElementById("onartu").textContent = (document.getElementById("emaila").value, " ez da onartzen.")
+        emaitza.textContent = "Errorea";
+        emaitza.style.color = "red";
     }
 }
+
+document.getElementById("konprobaketa").addEventListener("click", konprobaketa);
