@@ -1,0 +1,3 @@
+function irudi_aleatorioa(){
+
+}
