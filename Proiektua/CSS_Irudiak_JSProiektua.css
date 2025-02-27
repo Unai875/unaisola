@@ -38,6 +38,7 @@ div a{
     box-shadow: rgba(0,0,0,0.1) 0px 2px 4px;
     color: rgb(0, 119, 255);
     border-radius: 20px;
+    margin-bottom: 50px;
 }
 
 .irudia2{
@@ -49,4 +50,11 @@ div a{
     box-shadow: rgba(0,0,0,0.1) 0px 2px 4px;
     color: rgb(0, 119, 255);
     border-radius: 20px;
+}
+
+.m_botoia{
+    border: none;
+    background-color: #444;
+    color: white;
+    font-size: medium;
 }

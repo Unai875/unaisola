@@ -8,7 +8,7 @@ function konprobaketa(event){
         emaitza.textContent = "Emaila egokia da.";
         emaitza.style.color = "green";
     } else {
-        emaitza.textContent = "Errorea";
+        emaitza.textContent = "Emaila ez da egokia.";
         emaitza.style.color = "red";
     }
 }
@@ -16,10 +16,14 @@ function konprobaketa(event){
 document.getElementById("konprobaketa").addEventListener("click", konprobaketa);
 
 function modua(){
-
-    const modua = document.getElementsByClassName("m_botoia")[0].value;
-
-    if(document.getElementsByClassName("m_botoia")[0].includes("Argia") || document.getElementsByClassName("m_botoia")[0].includes("Modua")){
+    if(document.getElementsByClassName("m_botoia")[0].textContent.includes("Modua")){
+        document.getElementsByClassName("m_botoia")[0].textContent = "Iluna";
+        document.body.style.backgroundColor = "black";
+        document.body.style.color = "white";
+        document.getElementsByClassName("formulario-kontainerra")[0].style.backgroundColor = "#444";
+        document.getElementsByClassName("formulario-kontainerra")[0].style.borderBottomLeftRadius = "5px";
+        document.getElementsByClassName("formulario-kontainerra")[0].style.borderBottomRightRadius = "5px";
+    } else if ((document.getElementsByClassName("m_botoia")[0].textContent.includes("Argia"))){
         document.getElementsByClassName("m_botoia")[0].textContent = "Iluna";
         document.body.style.backgroundColor = "black";
         document.body.style.color = "white";
