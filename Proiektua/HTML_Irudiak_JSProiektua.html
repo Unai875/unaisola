@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="CSS_Irudiak_JSProiektua.css">
 </head>
-<body>
+<body onload="loop()">
     <header class="goiburuaOrokorra">
         <div class="barrukoFlex">
             <div class="Pertsonalizatzea"><a href="HTML_Pertsonalizazioa_JSProiektua.html">Pertsonalizatzea</a></div>
@@ -17,11 +17,12 @@
       </header>
       <div class="irudia1">
         <h2>Botoi Magikoa: Sortu eta aldatu irudiak</h2>
-        <button type="button" onclick="irudi_aleatorioa()">Aldati irudia!</button>
+        <button type="button" onclick="aukeratu_irudia()">Aldatu irudia!</button>
+        <p><img id="aukeratuta"></p>
       </div>
       <div class="irudia2">
         <h2>Automatikoki kargatzen</h2>
-        <a href=""></a>
+        <p><img id="aleatorioa" alt="Irudi aleatorioa"></p>
       </div>
       <script src="JS_Irudiak_JSProiektua.js"></script>
 </body>

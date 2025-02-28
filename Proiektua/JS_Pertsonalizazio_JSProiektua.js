@@ -60,7 +60,7 @@ function l(){
 }
 
 function xl(){
-    document.getElementById("Paragrafoa").style.fontSize = "larger";
+    document.getElementById("Paragrafoa").style.fontSize = "x-large";
 }
 
 function A(){
